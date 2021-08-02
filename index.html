@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda: The road king</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="honda-logo.png" type="jpg/png">
+
+    <!-- bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- fontawsome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <!-- google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <!-- header section start -->
+    <header class="">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light py-4">
+          <div class="container-fluid">
+  
+              <button class="navbar-toggler text-light" type="button" data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeft" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon "></span>
+              </button>
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasLeft"
+                  aria-labelledby="offcanvasLeftLabel">
+                  <div class="offcanvas-header">
+                      <h5 id="offcanvasLeftLabel" class="text-center fs-3 text-danger fw-bold">Menu</h5>
+                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                          aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body text-center">
+                      <ul class="navbar-nav fs-5">
+                          <li class="nav-item">
+                              <a class="nav-link active txt-cl  mx-3" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link txt-cl  mx-3" href="#">Shop</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link txt-cl  mx-3" href="#">News</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link txt-cl  mx-3" href="#">Contact</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+  
+              <div class="collapse navbar-collapse d-lg-flex justify-content-end text-center" id="navbarNav">
+                  <ul class="navbar-nav ">
+                      <li class="nav-item ">
+                          <a class="nav-link active  white-text-ef mx-3" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link white-text-ef mx-3" href="#">Shop</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link white-text-ef mx-3" href="#">News</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link  white-text-ef mx-3" href="#">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+              <div style="background-color: #E76F51; color: #ffffff;font-weight:500; border: 2px solid #E76F51;" class="btn btn-custom text-white ms-5 px-4">Login</div>
+          </div>
+      </nav>
+      </div>
+      
+
+
+      <section class="hero-section pt-5 pb-5">
+        <div class="container d-lg-flex align-items-center justify-content-center ">
+            <div class="text-content" style="padding-right: 35px;">
+                <p class="text-white fs-6">Computer-controlled digital transistorized with electronic advance</p>
+                <h1 class="text-white">Honda CBR 300R</h1>
+                <p class="header-text">Amet minim mollit non deserunt ullamco est sit aliqua
+                    dolor do amet sint. Velit officia consequat duis enim velit
+                    mollit. Exercitation veniam consequat sunt nostrud amet</p>
+                    <!-- <button style="background-color: #E76F51;" class="border-0 btn text-white btn-danger">Purchase</button> -->
+
+                    <!-- Button trigger modal -->
+                    <button style="background-color: #E76F51;" type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Purchase
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Honda CBR 300R</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <img class="w-50" src="images/header-bike.png" alt="">
+                            <h4>Details</h4>
+                            <p>Engine Type: Liquid-Cooled, Single-Cylinder, 4-Stroke, DOHC <br>
+                              Displacement: 286 cc <br>
+                              No. of Cylinders: 1 <br>
+                              Cooling System: Liquid Cooled <br>
+                              Valve Per Cylinder: 4
+                              </p>
+                              <h2>Price: 5 Lakh BDT</h2>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button style="background-color: #E76F51;" type="button" class="btn text-white">Purchase</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+            </div>
+            <div>
+                <img class="img-fluid" src="images/header-bike.png" alt="">
+            </div>
+        </div>
+
+    </section>
+    </header>
+    <!-- featured section start  -->
+
+    <section class="feature-section mt-5 mb-5">
+        <div class="container">
+            <h1 class="text-center fw-bold">Fetured Bikes 2021</h1>
+            <p>Best bike collection</p>
+            <hr class="border-bt">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="feature-img p-5">
+                  <a href=""><img style="width: 80%; filter: grayscale(100%);" src="images/feature-bike2.jpg" alt=""></a>
+              </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="feature-img p-5">
+                  <a href=""><img style="width: 80%; " src="images/feature-bike2.jpg" alt=""></a>
+              </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="feature-img p-5">
+                  <a href=""><img style="width: 80%; filter: grayscale(100%);" src="images/feature-bike2.jpg" alt=""></a>
+              </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    </header>
+    <!-- header section end   -->
+
+    <!-- main section start  -->
+
+    <main>
+        <!-- hero-section start  -->
+
+        
+
+        <!-- Latest news section -->
+        <section class="latest-news pt-5 pb-3 mb-5 mt-5">
+            <div class="container">
+                <h1 class="text-center fw-bold mb-5">Latest News</h1>
+                <div class="row row-cols-1 row-cols-md-3 g-5">
+                    <div  class="col ">
+                      <div  class="card shadow-sm border-1 h-100">
+                        <img src="images/bike (3).png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                          <p class="card-text">Bajaj is one of the leading motorcycle brands in Bangladesh number of sales. Uttara Motors Limited is the official distributor of Bajaj motorcycles in Bangladesh. They are launching New Bajaj Discover with new features and looks.</p>
+                        </div>
+                        <div class="p-3">
+                            <button style="background-color: #E76F51;" class="btn btn-danger border-0">Read More.</button>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/bike (2).png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Motorcycles & Scooters</h5>
+                          <p class="card-text"> Uttara Motors Limited is the official distributor of Bajaj motorcycles in Bangladesh. They are launching New Bajaj Discover with new features and looks.Bajaj is one of the leading motorcycle brands in Bangladesh number of sales..</p>
+                        </div>
+                        <div class="p-3">
+                            <button style="background-color:#fff; color: #E76F51;" class="btn btn-danger border-2">Read More.</button>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/bike (1).png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">2021 Honda CBR500R</h5>
+                          <p class="card-text">They are launching New Bajaj Discover with new features and looks.Bajaj is one of the leading motorcycle brands in Bangladesh number of sales.Uttara Motors Limited is the official distributor of Bajaj motorcycles in Bangladesh.</p>
+                        </div>
+                        <div class="p-3">
+                          <button style="background-color:#fff; color: #E76F51;" class="btn btn-danger border-2">Read More.</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        
+        <!-- client section  -->
+
+        <section class="client-section py-5 mb-5 mt-5">
+          <div class="container px-5">
+            <h1 class="fw-bold text-center mb-5">Happy <span style="color: #E76F51;">Customers Says</span></h1>
+            <div class="container overflow-hidden">
+              <div class="row g-5">
+                <div class="col-lg-4 w-30">
+                  <div class="p-3 border ">
+                    <div class="text-center p-3"> 
+                      <img src="images/user-1.png" alt="">
+                    </div>
+                    <div class="text-center">
+                      <p>Slate helps you see how 
+                        many more days you need 
+                        to work to reach your financial 
+                        goal for the month and year.</p>
+                        <p style="color: #E77C40;">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </p>
+                        <p class="fw-bold text-primary">Regina Miles</p>
+                        <p class="fw-bold ">Banker</p>
+                        
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 w-30">
+                  <div class="p-3 border">
+                    <div class="text-center p-3"> 
+                      <img src="images/user-2.png" alt="">
+                    </div>
+                    <div class="text-center">
+                      <p>It's always a pleasure to work with Will and his team. They are personable, responsive, and results-oriented! Quotemark..</p>
+                        <p style="color: #E77C40;">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </p>
+                        <p class="fw-bold text-primary">Belly Waif</p>
+                        <p class="fw-bold ">Engineer</p>
+                        
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 w-30">
+                  <div class="p-3 border">
+                    <div class="text-center p-3"> 
+                      <img src="images/user-3.png" alt="">
+                    </div>
+                    <div class="text-center">
+                      <p>Helps you see how 
+                        many more days you need 
+                        to work to reach your financial 
+                        goal for the month and year.</p>
+                        <p style="color: #E77C40;">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </p>
+                        <p class="fw-bold text-primary">Trwedt milaa</p>
+                        <p class="fw-bold ">Software Designer</p>
+                        
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <!-- popular bike section  -->
+      <section class="popular-section my-5">
+          <div class="container">
+            <h1 class="fw-bold text-center mb-5">Popular <span style="color: #E76F51;">Bike</span></h1>
+            <div class="row">
+                <div class="col-lg-3">
+                  <div class=" shadow-sm">
+                    <div class="img-area">
+                      <img style="width: 100%;" class="p-3" src="images/bike (1).png" alt="">
+                    </div>
+                    <div class="img-text text-center p-3">
+                      <h1 class="fw-bold">Honda 22rc</h1>
+                      <p>Price: &#2547; 2,00,000</p>
+                      <button style="background-color: #E76F51;" class="btn btn-danger border-0">Buy Now</button>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class=" shadow-sm">
+                    <div class="img-area">
+                      <img style="width: 100%;" class="p-3" src="images/bike1.jpg" alt="">
+                    </div>
+                    <div class="img-text text-center p-3">
+                      <h1 class="fw-bold">Suzuki S150</h1>
+                      <p>Price: &#2547; 5,00,000</p>
+                      <button style="background-color: #E76F51;" class="btn btn-danger border-0">Buy Now</button>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class=" shadow-sm">
+                    <div class="img-area">
+                      <img style="width: 100%;" class="p-3" src="images/bike-1.png" alt="">
+                    </div>
+                    <div class="img-text text-center p-3">
+                      <h1 class="fw-bold"> HONDA BR</h1>
+                      <p>Price: &#2547; 3,20,000</p>
+                      <button style="background-color: #E76F51;" class="btn btn-danger border-0">Buy Now</button>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class=" shadow-sm">
+                    <div class="img-area">
+                      <img style="width: 100%;" class="p-3" src="images/bike-4.jpg" alt="">
+                    </div>
+                    <div class="img-text text-center p-3">
+                      <h1 class="fw-bold">Benelli 52C</h1>
+                      <p>Price: &#2547; 3,50,000</p>
+                      <button style="background-color: #E76F51;" class="btn btn-danger border-0">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+
+          </div>
+      </section>
+      <!-- top brand section  -->
+      <section class="brand-section">
+        <div class="container text-center">
+          <h1 class="fw-bold text-center mb-5">Top <span style="color: #E76F51;">Brands</span></h1>
+          <div>
+            <img style="width: 60%;" src="images/bike-brand.png" alt="">
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ section  -->
+
+      <section class="faq-section py-5 mt-5 mb-5">
+        <div class="container">
+          <h1 class="fw-bold text-center mb-5">
+            Frequently Asked <span style="color: #E76F51;">Questions</span>
+          </h1>
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="faq-img ">
+                <img style="width: 80%;" class="" src="images/faq.png" alt="">
+              </div>
+            </div>
+
+            <div class="col-lg-7">
+              <div class="faq-text">
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        What are the most important things I should know about riding a bike?
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        How can I tell if my helmet is old and I need a new one?
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        My bike has been in storage is it safe to ride?
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        What rules should I follow when riding my bike?
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          
+          
+        </div>
+      </section>
+
+
+    </main>
+    <!-- main section end -->
+
+    <!-- footer section start  -->
+    <footer class="footer-section p-5">
+        <div class="container">
+          <div class="row mt-5">
+            <div class="col-lg-6 lh-lg">
+              <div>
+                 <a class="text-white text-decoration-none" href="#">Download Now</a>
+                 <a class="text-white text-decoration-none" href="#">Licence</a>
+              </div>
+              <div style="color: #fff;" class="navbars">
+                  <a class="text-white text-decoration-none" href="">About</a>
+                  <a class="text-white text-decoration-none" href="">Features</a>
+                  <a class="text-white text-decoration-none" href="">Pricing</a>
+                  <a class="text-white text-decoration-none" href="">Careers</a>
+                  <a class="text-white text-decoration-none" href="">Help</a>
+                  <a class="text-white text-decoration-none" href="">Privacy Policy</a>
+              
+              </div>
+              
+              
+            </div>
+           
+            <div class="col-lg-3 text-right">
+              
+            </div>
+            <div class="col-lg-3 text-right">
+              <h4 class="text-white">Get the app:</h4>
+                <img src="images/download-app.png" alt="">
+            </div>
+          </div>
+          <br>
+          <br>
+          <p class="text-white text-center fs-6">&copy; 2020 Bike. All rights reserved</p>
+        </div>
+    </footer>
+    <!-- footer section end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

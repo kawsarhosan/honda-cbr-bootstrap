@@ -1,0 +1,42 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #264653;
+}
+.header-text{
+    color: #E0E0E0;
+    ;
+}
+.feature-section h1, .latest-news h1{
+    font-size: 48px;
+}
+
+.feature-section p{
+    color: #E76F51;
+    text-align: center;
+    /* border-bottom: 3px solid #E76F51; */
+}
+.feature-img img{
+    transition: transform 1s ease-in-out;
+}
+.feature-img img:hover{
+    transform: scale(1.1);
+}
+
+.footer-section{
+    background-color: #0B0D17;
+}
+.white-text-ef{
+    color: #ffffff !important;
+}
+.white-text-ef:hover{
+    color: #E76F51 !important;
+    transition: .2s;
+}
+.border-bt{
+    color: #E76F51;
+     width: 100px; 
+     margin: 0 auto;
+     padding: 1px;
+}
